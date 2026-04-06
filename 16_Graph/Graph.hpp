@@ -11,7 +11,11 @@ class Graph {
     void print() const;
 
     void DFS() const;
-    
+    void BFS(int start = 0) const;
+    int shortestPath(const T& src, const T& dest) const;
+    //  TODO FALSE IF ONE+ NODE CANNOT BE REACHED
+    //  counter of total vs visited
+    bool isConnected() const;
     
     private:
     std::vector<T> vertices;

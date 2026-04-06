@@ -28,11 +28,6 @@ int main(void) {
 
     //knowledge.print();
     //knowledge.DFS();
-
-    
-    //  TODO 
-    //  1. Create a disconnected Graph
-    //  2. Update DFS to traverse all the nodes of this graph
     
     Graph<std::string> disco;
 
@@ -64,11 +59,17 @@ int main(void) {
     disco.insertEdge("R", "E");
     disco.insertEdge("P", "I");
     
-    disco.print();
-    std::cout << "===========DFS=========" << std::endl;
-    disco.DFS();
+    //disco.print();
+    //std::cout << "===========DFS=========" << std::endl;
+    //disco.DFS();
+    
+    //std::cout << "===========BFS=========" << std::endl;
+    //knowledge.BFS();
+    
+    std::cout << "A, F " << knowledge.shortestPath("A", "F") << std::endl;
+    std::cout << "A, D " << knowledge.shortestPath("A", "D") << std::endl;
 
-
+    
 
     return 0;
 }
