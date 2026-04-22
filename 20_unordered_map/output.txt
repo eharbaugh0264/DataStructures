@@ -1,0 +1,38 @@
+John : 76
+Anna : 95
+Michael : 90
+Found:
+John : 76
+
+Count Frequency...
+12 : 1
+5 : 2
+4 : 1
+3 : 1
+2 : 4
+1 : 2
+
+Check duplicates...
+1
+
+First non-repeated character = [p]
+
+Group Strings: 
+A: 
+Apperatus, Appollo, 
+========
+C: 
+Cow, 
+========
+D: 
+Distinguished, Diabolical, 
+========
+M: 
+Money, 
+========
+Q: 
+Questionable, Quest, Query, Queue, Quadrent, 
+========
+Z: 
+Zoo, 
+========
